@@ -99,7 +99,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: white;
 }
 
 .d-bloc button:hover {
@@ -155,6 +155,9 @@ a:hover {
     margin: 0 auto;
 }
 
+.color-a {
+    color: white !important;
+}
 
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
@@ -791,7 +794,11 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #bd633a;
+    background-color: black;
+}
+
+.footer-black {
+    background-color: black;
 }
 
 .tc-white {
