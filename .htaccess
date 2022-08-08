@@ -8,13 +8,13 @@ BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
 # BEGIN Cache-Control Headers
 <IfModule mod_headers.c>
 <FilesMatch "\.(ico|jpe?g|png|gif|swf|css|gz|webp)$">
-Header set Cache-Control "max-age=600, public"
+Header set Cache-Control "max-age=31536000, public"
 </FilesMatch>
 <FilesMatch "\.(js)$">
-Header set Cache-Control "max-age=600, private"
+Header set Cache-Control "max-age=31536000, private"
 </FilesMatch>
 <filesMatch "\.(html|htm)$">
-Header set Cache-Control "max-age=600, public"
+Header set Cache-Control "max-age=31536000, public"
 </filesMatch>
 # Enleve le cache pour les ressources dynamiques
 <FilesMatch "\.includes/form_1.php">
